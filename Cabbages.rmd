@@ -44,6 +44,12 @@ The avarage VitC content in cabbages cultivated using the C39 method is shown to
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+```{r}
+favstats(VitC~Cult,data=veggy)
+```
+
+The average VitC content of cabbages cultivated using the C39 method is 51.5 units, while the average VitC content of cabbages cultivated using the C52 method is 64.4 units.
+
 
 ## Inferential Results
 
